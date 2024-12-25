@@ -1,0 +1,110 @@
+
+
+body {
+    background: url("https://img.freepik.com/free-psd/modern-abstract-deep-blue-gradient-background_84443-3754.jpg") no-repeat center center/cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+background: url("https://img.freepik.com/free-psd/modern-abstract-deep-blue-gradient-background_84443-3754.jpg") no-repeat center center/cover;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("https://img.freepik.com/free-psd/modern-abstract-deep-blue-gradient-background_84443-3754.jpg") no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.about, .portfolio, .contact {
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.about h2, .portfolio h2, .contact h2 {
+    margin-bottom: 20px;
+}
+.portfolio {
+    background: url("https://img.freepik.com/free-psd/modern-abstract-deep-blue-gradient-background_84443-3754.jpg") no-repeat center center/cover;
+
+}
+.contact a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.container img {
+    max-width: 300px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and text */
+}
+.text {
+    max-width: 600px;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .container img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
